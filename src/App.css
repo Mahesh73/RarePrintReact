@@ -1,33 +1,70 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
+  max-width: 100%;
+  position: relative;
+  font-family: 'Times New Roman', Times, serif;
+  margin: 0;
+  padding: 0;
 }
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.Hero_img{
+  width: 100%;
+  height: 100%;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#intro{
+  width: 100%;
+  height: 70vh;
 }
-
-.App-link {
-  color: #61dafb;
+#intro h1{
+  margin: 0 0 10px 0;
+  font-size: 3.4rem;
+  text-align: start;
+  font-weight: bold;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+#intro .brandName{
+  color: #021554f0;
+}
+#intro p{
+  font-size: 24px;
+  text-align: start;
+}
+#intro .btn-outline-primary{
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 50px;
+  transition: 0.5s;
+}
+#intro .img-fluid_animated{
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+@keyframes up-down{
+  from {top: 0px;}
+  to {top: 25px;}
+}
+#who{
+  padding: 3rem;
+}
+.msg{
+  display: none;
+}
+@media screen and (max-width: 960px){
+  .Hero_img{
+    height: 250px;
   }
-  to {
-    transform: rotate(360deg);
+  #intro{
+    height: auto;
+  }
+  #intro h1{
+    font-size: 27px;
+    text-align: center;
+  }
+  #intro p{
+    font-size: 16px;
+    text-align: center;
+  }
+  #who{
+    padding: 3rem 0;
   }
 }

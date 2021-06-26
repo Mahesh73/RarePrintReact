@@ -1,0 +1,27 @@
+Service{
+    background-color: cadetblue;
+}
+.container-fluid{
+    padding: 25px;
+    text-align: center;
+}
+.card{
+    background: #FFF7F5;
+}
+.col-md-4{
+    margin: 0;
+    padding: 0;
+}
+.card i{
+    padding-top: 25px;
+}
+.card h2{
+    padding-top: 10px;
+    font-family: cursive;
+}
+.card p{
+    text-align: center;
+}
+.order-2 .card{
+    background: #DCE4E7;
+}

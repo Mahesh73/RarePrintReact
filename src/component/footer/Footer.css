@@ -1,0 +1,18 @@
+footer{
+    background: #041e3c;
+}
+#ftr .container{
+    padding: 1.5rem;
+}
+.copy_right{
+    background: #031830;
+}
+.list-unstyled a{
+    color: #807463;
+    text-decoration: none;
+}
+@media screen and (max-width: 960px){
+    #ftr .container{
+        padding: 1.5rem 0;
+    }
+}

@@ -1,0 +1,36 @@
+.cards{
+    box-shadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s linear;
+    position: relative;
+}
+.cards:hover{
+    box-shadow: 4px 10px 5px 0px rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.8);
+}
+.cards img{
+    height: 250px;
+    width: 100%;
+    display: block;
+    transition: all 0.3s linear;
+}
+.cards:hover img{
+    background: rgba(0, 0, 0, 0.8);
+}
+.cards:hover .cards_link{
+    transform: translate(-50%, -50%) scale(1);
+}
+.cards_link{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: scale(0);
+    transition: all 0.3s linear;
+}
+.card_title{
+    background: #cfcfcf;
+    text-transform: capitalize;
+    padding: 0.5rem 0;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
