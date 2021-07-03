@@ -6,7 +6,7 @@
   "proxy": "https://localhost:3001",
   "dependencies": {
     "axios": "^0.21.1",
-    "bootstrap": "^5.0.0-alpha1",
+    "bootstrap": "^5.0.2",
     "node-sass": "^5.0.0",
     "nodemailer": "^6.6.0",
     "react": "^17.0.1",

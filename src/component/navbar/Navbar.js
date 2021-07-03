@@ -9,6 +9,10 @@ function Navbar() {
     const closeMobileMenu = () => setClick(false)
     return(
         <>
+            <div className="ribbon">
+                <a>Order by 9Am - 10pm</a>
+                <a style={{float: 'right'}}><span><i className="fas fa-phone"> </i></span> 9637318960</a>
+            </div>
             <nav className="navbar">
                 <Link className="navbar-brand" to="/">
                     <img src="./images/rareprintLogo.png" alt="" loading="lazy"/>

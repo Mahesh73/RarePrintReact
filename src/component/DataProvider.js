@@ -3,7 +3,7 @@ import React, { createContext, useState } from "react"
 export const DataContext = createContext();
 
 export const DataProvider = (props) => {
-    const [ products, setProducts ] = useState([
+    const [products, setProducts] = useState([
         {
             id: 1,
             title: "Homoeopathy Stickers",
@@ -12,20 +12,20 @@ export const DataProvider = (props) => {
             ],
             desc: "Homoeopathy sticker is used to stick on homoeopathic medicine bottle for prescribing doses and information.",
             sizes: [
-                '05ml droper size:- 2" * 0.75',
-                '05ml droper size:- 2" * 1"',
-                '15ml droper size:- 2" * 1.25',
-                '30ml droper size:- 2.5" * 1.5',
-                '1/2 dram size:- 1.5" * 0.75"',
-                '1 dram size:- 1.5" * 1"',
-                '2 dram size:- 1.75" * 1.25"',
+                {s: '05ml droper size:- 2" * 0.75'},
+                {s: '05ml droper size:- 2" * 1"'},
+                {s: '15ml droper size:- 2" * 1.25'},
+                {s: '30ml droper size:- 2.5" * 1.5'},
+                {s: '1/2 dram size:- 1.5" * 0.75"'},
+                {s: '1 dram size:- 1.5" * 1"'},
+                {s: '2 dram size:- 1.75" * 1.25"'},
             ],
             features: [
-                'Multicolor printing',
-                'Finish:- Glossy Photo Sticker',
-                'Thickness:- 130 GSM',
-                'Sticking:- Extra Adhesive',
-                '500 dpi resolution printing'
+                {fea: 'Multicolor printing'},
+                {fea: 'Finish:- Glossy Photo Sticker'},
+                {fea: 'Thickness:- 130 GSM'},
+                {fea: 'Sticking:- Extra Adhesive'},
+                {fea: '500 dpi resolution printing'}
             ],
             pDetails: "1 pack of 1800 stickers(50 sheets) Sticker size:- 1'*0.75' inch",
             price: "499/-"
@@ -38,15 +38,15 @@ export const DataProvider = (props) => {
             ],
             desc: "Homoeopathic envelopes is used to carry and hold homoeopathic medicine bottles.",
             sizes: [
-                'Small (3"×2.5")',
-                'Medium (4.5"×3.5")',
-                'Large (7.5"×5")',
-                'Extra Large (9"×4")',
+                {s: 'Small (3"×2.5")'},
+                {s: 'Medium (4.5"×3.5")'},
+                {s: 'Large (7.5"×5")'},
+                {s: 'Extra Large (9"×4")'},
             ],
             features: [
-                'Multicolor printing',
-                'Front & Back Print',
-                '700 dpi resolution printing'
+                {fea: 'Multicolor printing'},
+                {fea: 'Front & Back Print'},
+                {fea: '700 dpi resolution printing'}
             ],
         },
         {
@@ -56,10 +56,10 @@ export const DataProvider = (props) => {
                 "https://rareprint.in/images/visiting.jpeg"
             ],
             features: [
-                'Multicolor printing',
-                'Both Sides Printing',
-                '250-370 GSM paper quality',
-                'Glossy & Matt Lamination'
+                {fea: 'Multicolor printing'},
+                {fea: 'Both Sides Printing'},
+                {fea: '250-370 GSM paper quality'},
+                {fea: 'Glossy & Matt Lamination'},
             ],
         },
         {
@@ -70,9 +70,9 @@ export const DataProvider = (props) => {
             ],
             desc: "Multicolour Letterheads used in clinics and hospitals for prescribing medicines and medication.",
             features: [
-                'Multicolor printing',
-                'Both Sides Printing',
-                '80 GSM maplitho paper quality'
+                {fea: 'Multicolor printing'},
+                {fea: 'Both Sides Printing'},
+                {fea: '80 GSM maplitho paper quality'}
             ],
         },
         {
@@ -90,8 +90,8 @@ export const DataProvider = (props) => {
             ]
         },
     ])
-    return(
-        <DataContext.Provider value={[ products, setProducts ]}>
+    return (
+        <DataContext.Provider value={[products, setProducts]}>
             {props.children}
         </DataContext.Provider>
     )
