@@ -11,7 +11,7 @@ function Footer() {
                     <div className="row">
                         <div className="col-md-6 mb-4 mb-md-0 pl-5">
                             <h5>RARE PRINT</h5>
-                            <p style={{color: "#807463"}}>Rare Print is a outcome of dreams of it's founders and hard work of it's team. We have been a reliable organisational in helping patients get medication timely, properly and easily by our unique products. We aims at simplifying and easing the medication process. We offer different types of products which also helps doctors and chemist, improve the life is their patients. Our products and services includes prescription machine, prescription roll, prescription pad, prescription envelop, prescription file and other related products and services.</p>
+                            <p style={{color: "#a59887"}}>Rare Print is a outcome of dreams of it's founders and hard work of it's team. We have been a reliable organisational in helping patients get medication timely, properly and easily by our unique products. We aims at simplifying and easing the medication process. We offer different types of products which also helps doctors and chemist, improve the life is their patients. Our products and services includes prescription machine, prescription roll, prescription pad, prescription envelop, prescription file and other related products and services.</p>
                         </div>
                         <div className="col-md-6 mb-4 mb-md-0">
                             <div className="row">
@@ -39,7 +39,7 @@ function Footer() {
                                     <h5 className="text-uppercase mb-0">Social</h5>
                                     <ul className="list-unstyled mb-0">
                                         <li>
-                                            <Link to="https://api.whatsapp.com/send?phone=+919637318960" target="_blank"><img src="./images/whatsapp.svg" height="20" width="20" alt="whatsapp"/> +91 9637318960</Link>
+                                            <Link to="https://api.whatsapp.com/send?phone=+919325822180"><img src="./images/whatsapp.svg" height="20" width="20" alt="whatsapp"/> +91 9325822180</Link>
                                         </li>
                                         <li>
                                             <Link to="https://m.facebook.com/rareprint.in/?ref=bookmarks" target="_blank"><img src="./images/facebook.png" height="20" width="20" alt="Facebook"/> Facebook</Link>

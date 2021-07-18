@@ -18,14 +18,15 @@ function ProductDetailsPage() {
               <div className="pt-2">
                 <ol className="breadcrumb">
                   <li className="breadcrumb-item">
-                    <Link href="/">Home</Link>
+                    <Link to="/">Home</Link>
                   </li>
                   <li className="breadcrumb-item active" aria-current="page">{data.title}</li>
                 </ol>
               </div>
               <div className="row">
-                <div className="col-md-6">
+                <div className="col-md-6 text-center">
                   <img src={data.imgsrc} alt={data.title} />
+                  <button className="btn btn-danger mt-3">Get a Quote</button>
                 </div>
                 <div className="col-md-6">
                   <h1 className="fw-bold">{data.title}</h1>
@@ -50,12 +51,6 @@ function ProductDetailsPage() {
                       ) : ''
                     }
                   </ul>
-                  <p>Price Detail:</p>
-                  <p className="text-muted"> {data.pDetails}</p>
-                  <p className="text-muted">MRP:- {data.price}</p>
-                  <p>Note: </p>
-                  <p>* FREE DELIVERY FOR PREPAID ORDERS</p>
-                  <p>* COURIER CHARGES 40/- EXTRA FOR COD ORDERS</p>
                 </div>
               </div>
             </div>
