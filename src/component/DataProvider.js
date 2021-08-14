@@ -12,20 +12,20 @@ export const DataProvider = (props) => {
             ],
             desc: "Homoeopathy sticker is used to stick on homoeopathic medicine bottle for prescribing doses and information.",
             sizes: [
-                {s: '05ml droper size:- 2" * 0.75'},
-                {s: '05ml droper size:- 2" * 1"'},
-                {s: '15ml droper size:- 2" * 1.25'},
-                {s: '30ml droper size:- 2.5" * 1.5'},
-                {s: '1/2 dram size:- 1.5" * 0.75"'},
-                {s: '1 dram size:- 1.5" * 1"'},
-                {s: '2 dram size:- 1.75" * 1.25"'},
+                { s: '05ml droper size:- 2" * 0.75' },
+                { s: '05ml droper size:- 2" * 1"' },
+                { s: '15ml droper size:- 2" * 1.25' },
+                { s: '30ml droper size:- 2.5" * 1.5' },
+                { s: '1/2 dram size:- 1.5" * 0.75"' },
+                { s: '1 dram size:- 1.5" * 1"' },
+                { s: '2 dram size:- 1.75" * 1.25"' },
             ],
             features: [
-                {fea: 'Multicolor printing'},
-                {fea: 'Finish:- Glossy Photo Sticker'},
-                {fea: 'Thickness:- 130 GSM'},
-                {fea: 'Sticking:- Extra Adhesive'},
-                {fea: '500 dpi resolution printing'}
+                { fea: 'Multicolor printing' },
+                { fea: 'Finish:- Glossy Photo Sticker' },
+                { fea: 'Thickness:- 130 GSM' },
+                { fea: 'Sticking:- Extra Adhesive' },
+                { fea: '500 dpi resolution printing' }
             ],
             pDetails: "1 pack of 1800 stickers(50 sheets) Sticker size:- 1'*0.75' inch",
             price: "499/-"
@@ -38,15 +38,15 @@ export const DataProvider = (props) => {
             ],
             desc: "Homoeopathic envelopes is used to carry and hold homoeopathic medicine bottles.",
             sizes: [
-                {s: 'Small (3"×2.5")'},
-                {s: 'Medium (4.5"×3.5")'},
-                {s: 'Large (7.5"×5")'},
-                {s: 'Extra Large (9"×4")'},
+                { s: 'Small (3"×2.5")' },
+                { s: 'Medium (4.5"×3.5")' },
+                { s: 'Large (7.5"×5")' },
+                { s: 'Extra Large (9"×4")' },
             ],
             features: [
-                {fea: 'Multicolor printing'},
-                {fea: 'Front & Back Print'},
-                {fea: '700 dpi resolution printing'}
+                { fea: 'Multicolor printing' },
+                { fea: 'Front & Back Print' },
+                { fea: '700 dpi resolution printing' }
             ],
         },
         {
@@ -56,10 +56,10 @@ export const DataProvider = (props) => {
                 "https://rareprint.in/images/visiting.jpeg"
             ],
             features: [
-                {fea: 'Multicolor printing'},
-                {fea: 'Both Sides Printing'},
-                {fea: '250-370 GSM paper quality'},
-                {fea: 'Glossy & Matt Lamination'},
+                { fea: 'Multicolor printing' },
+                { fea: 'Both Sides Printing' },
+                { fea: '250-370 GSM paper quality' },
+                { fea: 'Glossy & Matt Lamination' },
             ],
         },
         {
@@ -70,9 +70,9 @@ export const DataProvider = (props) => {
             ],
             desc: "Multicolour Letterheads used in clinics and hospitals for prescribing medicines and medication.",
             features: [
-                {fea: 'Multicolor printing'},
-                {fea: 'Both Sides Printing'},
-                {fea: '80 GSM maplitho paper quality'}
+                { fea: 'Multicolor printing' },
+                { fea: 'Both Sides Printing' },
+                { fea: '80 GSM maplitho paper quality' }
             ],
         },
         {
@@ -84,9 +84,27 @@ export const DataProvider = (props) => {
         },
         {
             id: 6,
-            title: "Boards",
+            title: "Promotional Keychain",
             imgsrc: [
-                "https://rareprint.in/images/newBanner.png"
+                "https://rareprint.in/images/keychain.jpeg"
+            ],
+            material: [
+                'Nickel (500 MOQ)',
+                'Chrome (500 MOQ)',
+                'Golden Plating (500 MOQ)',
+                'Silver Plating (500 MOQ)',
+                'ABS Moulding (1000 MOQ)',
+                'PVC Rubber (1000 MOQ)',
+                'ABS Printing(500 MOQ)',
+                'ABS Meena(500 MOQ)',
+                'Special Mould(500 MOQ)',
+                'ABS Patta(500 MOQ)',
+                'Acrylic(500 MOQ)',
+                'Crystal Photo(500 MOQ)',
+                'Silicon Rubber(2000 MOQ)',
+                'MDF (500 MOQ)',
+                'Leather(500 MOQ)',
+                'Leatherette(500 MOQ)',
             ]
         },
     ])

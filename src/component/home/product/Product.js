@@ -7,7 +7,7 @@ function Product() {
     return (
         <>
             <div className="feature_section container">
-                <h2 className="text-center font-weight-bold mt-4">Featured Products</h2>
+                <h2 className="text-center font-weight-bold mt-4">Our Products</h2>
                 <div className="row">
                     {
                         products.map(product => (

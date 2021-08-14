@@ -6,6 +6,7 @@ import Product from './product/Product'
 function Home() {
     return (
         <>
+            <img src="./images/homeBanner.jpg" className="Hero_img" alt="..." />
             {/* <img src="./images/doctor_banner.png" className="Hero_img" alt="..." /> */}
             {/* <Intro /> */}
             <Product />
