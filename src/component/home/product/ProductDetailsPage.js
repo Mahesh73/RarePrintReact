@@ -105,9 +105,7 @@ function ProductDetailsPage() {
                       ) : ''
                     }
                   </ul>
-                  {
-                    details[0].length(material) > 0 ? <p className="text-success fw-bolds">Features:</p> : ''
-                  }
+                  <p className="text-success fw-bolds">Features:</p>
                   <ul>
                     {
                       details[0].features ? details[0].features.map((item, i) => (
